@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools"]
+
+[project]
+name = "my_transformer"
+version = "0.1"
+description = "Transformer architecture based of the paper **Attention is all you need**"
+authors = [
+    {name = "Bradley", email = "bradley.stanley-clamp@new.ox.ac.uk"}
+]
+readme = "README.md"
+dependencies = ["torch"]
+
+[project.urls]
+
+[project.scripts] # Define scripts here if you have any
+
+[project.optional-dependencies] # Define optional dependencies here if you have any
